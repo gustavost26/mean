@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: {
-		uri: 'mongodb://node:noder@novus.modulusmongo.net:27017/wuJ4udir',
+		uri: 'mongodb://localhost/mean-test',
 		options: {
 			user: '',
 			pass: ''
