@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: {
-		uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+		uri: 'mongodb://heroku_app34101350:s4t233vl8rrh8lsguot6iv31or@ds045011.mongolab.com:45011/heroku_app34101350',
 		options: {
 			user: '',
 			pass: ''
